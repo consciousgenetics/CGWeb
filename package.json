@@ -14,6 +14,7 @@
   ],
   "scripts": {
     "build": "medusa build",
+    "vercel-build": "chmod +x vercel-build.sh && ./vercel-build.sh",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "medusa start",
     "dev": "medusa develop",
