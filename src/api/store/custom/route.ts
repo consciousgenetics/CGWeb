@@ -1,8 +1,8 @@
-import type { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+import { Request, Response } from "@medusajs/framework";
 
 export async function GET(
-  req: MedusaRequest,
-  res: MedusaResponse
+  req: Request,
+  res: Response
 ): Promise<void> {
   res.sendStatus(200);
 }
